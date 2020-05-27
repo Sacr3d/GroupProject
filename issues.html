@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <div id="header" class="fixed">
+        <ul class="nav-left horizontal-list">
+            <li>
+                <a href=""><b>Issues</b></a>
+            </li>
+            <li>
+                <a href="security.html"><b>Security</b></a>
+            </li>
+            <li>
+                <a href="techniques.html"><b>Techniques</b></a>
+            </li>
+        </ul>
+        <a href="index.html">
+            <img class="logo" src="images/logo-edited.png" alt="Secri-key Logo" />
+        </a>
+        <ul class="nav-right horizontal-list">
+            <li>
+                <a href=""><b>Contact Us</b></a>
+            </li>
+            <li>
+                <a href=""><b>Donate</b></a>
+            </li>
+            <li>
+                <a href=""><b>References</b></a>
+            </li>
+        </ul>
+    </div>
+    <div class="animated-area background-grey">
+        <ul class="box-area">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div id="fixed-container">
+        <div id="container-issues">
+            <div id="issues-title" class="title">
+                <strong>
+                    Issues around privacy in business information systems.</strong>
+            </div>
+            <div id="container-privacylaw">
+                <button id="button-privacy" class="width-issues grow" onclick="openModal('privacy');">Information Privacy Law</button>
+
+                <div id="privacy" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="window.close('privacy')">&times;</span>
+                        <span class="modal-title"><strong>
+                                Issues around privacy in business information systems.</strong></span>
+                        <p>
+                            Data privacy laws or data security laws forbids the release or abuse of data about private persons. Over 80 nations and autonomous nations territories, covering almost every country in Europe and others in Latin America and the Caribbean, Asia, and Africa,
+                            have now implemented robust data security laws. Some principles for the privacy and protection act of consumer data:
+                        </p>
+                        <ul>
+                            <li>
+                                For all data collected, there should be a stated purpose.
+                            </li>
+                            <li>
+                                Information collected from an individual cannot be disclosed to other organizations unless authorized by law or the person’s consent.
+                            </li>
+                            <li>
+                                Records kept on an individual should be accurate and up to date.
+                            </li>
+                            <li>
+                                Data should be deleted when it is no longer needed for the stated purpose
+                            </li>
+                            <li>
+                                Some data is too sensitive to be collected, unless there are extreme circumstances
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-databreaches">
+                <button id="button-databreaches" class="width-issues-double grow" onclick="openModal('databreaches');">Consequences of data breaches.</button>
+
+                <div id="databreaches" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="window.close('databreaches')">&times;</span>
+                        <span class="modal-title"><strong> Consequences of data breaches.</strong></span>
+                        <p>
+                            Data from breaches is often sold to criminal groups who use the details to craft phishing emails. Phishing emails are likely to threaten clients of an enterprise that has experienced a data breach, regardless of whether their records have been breached.
+                            It is how hackers take advantage of news reports that can threaten the clients with a compromised company with phishing emails using the breach subject line. Attackers are most likely aiming for financial benefit. This may
+                            be obvious methods such as tricking victims into sending money or uploading financial passwords stealing malware. Instead they may try to implicitly monetize the attack by collecting information that is then passed on and could
+                            be used to encourage further attacks.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-criticalinfo">
+                <button id="button-criticalinfo" class="width-issues-double grow" onclick="openModal('criticalinfo');">How
+                    critical information breaches can break critical businesses.</button>
+
+                <div id="criticalinfo" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="window.close('criticalinfo')">&times;</span>
+                        <span class="modal-title"><strong>
+                                How critical information breaches can break critical
+                                businesses</strong></span>
+                        <p>
+                            A data breach can cause irreparable damage and can have long-lasting effects. In addition to the large fines that may be imposed because of non-compliance, organizations may face additional operating downtime costs, implement new security measures, and
+                            compensate affected customers. Breaches can also have a major effect on customer trust and harm to the credibility of the company. The sad fact is that many customers will lose trust in a company if they feel that their company
+                            if they feel that their data is not adequately secured which will in turn drive down their value by the mismanagement of data breaches.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-mitigation">
+                <button id="button-mitigation" class="grow width-issues" onclick="openModal('mitigation');">How to
+                    Mitigate it.</button>
+
+                <div id="mitigation" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="window.close('mitigation')">&times;</span>
+                        <span class="modal-title"><strong> How to Mitigate it.</strong></span>
+                        <p>
+                            Whilst phishing emails are designed to be difficult to spot, there are some checks which users can employ to identify the less sophisticated campaign. Usually the email may contain a malicious attachment or a link to a malicious website. The strongest
+                            security, as well as knowledge, is to keep the computers and apps up to date. Also be sure to check the sender, subject line, logo, the email introduction, and links and attachments.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="fixed">Group project</div>
+    <script src="js/modal.js"></script>
+</body>
+
+</html>
+<!-- Mattia Sassone -->

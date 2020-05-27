@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <div id="header" class="fixed">
+        <ul class="nav-left horizontal-list">
+            <li>
+                <a href="issues.html"><b>Issues</b></a>
+            </li>
+            <li>
+                <a href=""><b>Security</b></a>
+            </li>
+            <li>
+                <a href="techniques.html"><b>Techniques</b></a>
+            </li>
+        </ul>
+        <a href="index.html">
+            <img class="logo" src="images/logo-edited.png" alt="Secri-key Logo" /> </a>
+        <ul class="nav-right horizontal-list">
+            <li>
+                <a href=""><b>Contact Us</b></a>
+            </li>
+            <li>
+                <a href=""><b>Donate</b></a>
+            </li>
+            <li>
+                <a href=""><b>References</b></a>
+            </li>
+        </ul>
+    </div>
+    <div class="animated-area background-grey">
+        <ul class="box-area">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <div id="fixed-container">
+        <div id="container-security">
+
+            <div id="security-title" class="title">
+                <strong>Security mechanics that can protect information systems.</strong>
+            </div>
+
+            <div id="container-userid">
+                <button id="button-userid" class="width-security grow" onclick="openModal('userid');">User IDs</button>
+
+                <div id="userid" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="window.close('userid')">&times;</span>
+                        <span class="modal-title"><strong>
+                                User IDs.</strong></span>
+                        <p>
+                            Think about how you just logged into your portal, you have your own user ID to login which
+                            allows you to differentiate you from the person sitting beside you right now 😊 this is also
+                            used to know who is currently assessing the system so there can be no mistakes. For example,
+                            my User ID is jsmith12.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-passwords">
+                <button id="button-passwords" class="width-security grow"
+                    onclick="openModal('passwords');">Passwords</button>
+
+                <div id="passwords" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="window.close('passwords')">&times;</span>
+                        <span class="modal-title"><strong>
+                                Passwords.</strong></span>
+                        <p>
+                            Now you’re probably thinking “couldn’t anyone just log in to your account if they have your
+                            “User ID” well you’re correct that’s true, anyone could do that which is why after you enter
+                            your User ID you’re prompted to give your password as a means of authentication,
+                            Having a password helps to be more secure but it isn’t always the safest so make your
+                            passwords long and complex.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-biometrics">
+                <button id="button-biometrics" class="width-security grow"
+                    onclick="openModal('biometrics');">Biometrics</button>
+
+                <div id="biometrics" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="window.close('biometrics')">&times;</span>
+                        <span class="modal-title"><strong>Biometrics.</strong></span>
+                        <p>
+                            Another couple forms of authentication could be biometrics such as “fingerprint
+                            recognition”. Or Pin-code verification. I am sure most of you with advanced technology will
+                            understand the importance of these two because it’s being used everywhere nowadays. For
+                            example, when you open your phone, I’m pretty sure all of you guys will use either a pin or
+                            place down your finger onto your home screen to open your phone through your fingerprint.
+                            These are reliable because pins can be difficult to guess if made well and fingerprints are
+                            incredibly good because they can only be opened by someone with the same fingerprint as you.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-dataintegrity">
+                <button id="button-dataintegrity" class="width-security grow" onclick="openModal('dataintegrity');">Data
+                    Integrity</button>
+
+                <div id="dataintegrity" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="window.close('dataintegrity')">&times;</span>
+                        <span class="modal-title"><strong>Data Integrity.</strong></span>
+                        <p>
+                            Data integrity is very important in information systems because it means how accurate and
+                            consistent data will stay over time, for example, data will lose its reliability and
+                            integrity if it is constantly being changed over time, for example someone telling you a
+                            different story every time you talk to them about a specific subject. What may cause this to
+                            happen you may ask? Well here are a list of variables that could change data over time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-humanerror">
+                <button id="button-humanerror" class="width-security grow" onclick="openModal('humanerror');">Human
+                    Error</button>
+
+                <div id="humanerror" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="window.close('humanerror')">&times;</span>
+                        <span class="modal-title"><strong>Human Error.</strong></span>
+                        <p>
+                            This is when a human alters data incorrectly whether it Is by accident or with malicious
+                            intent.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-transfererror">
+                <button id="button-transfererror" class="width-security grow"
+                    onclick="openModal('transfererror');">Transfer
+                    Errors</button>
+
+                <div id="transfererror" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="window.close('transfererror')">&times;</span>
+                        <span class="modal-title"><strong>Transfer Errors.</strong></span>
+                        <p>
+                            Sometimes when data is passed through a system, the technology used can be faulty resulting
+                            in altercated data and therefore affects its integrity as it is not 100% accurate. For
+                            example, you could be sending an email to someone and the application could crash midway
+                            potentially causing the data to be split.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-cryptography">
+                <button id="button-cryptography" class="width-security grow"
+                    onclick="openModal('cryptography');">Cryptography</button>
+
+                <div id="cryptography" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="window.close('cryptography')">&times;</span>
+                        <span class="modal-title"><strong>Cryptography.</strong></span>
+                        <p>
+                            Cryptography is the study of secure communications that only allow the intended recipient to
+                            view content that is sent through a system. For example, if you send a file to someone
+                            through google drive for example, the person who you have given permission to access the
+                            file will be the only one that can access the file. This is also the same when young kids
+                            like you send each other messages over the phone.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-vpn">
+                <button id="button-vpn" class="width-security grow" onclick="openModal('vpn');">VPN</button>
+
+                <div id="vpn" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="window.close('vpn')">&times;</span>
+                        <span class="modal-title"><strong>VPN.</strong></span>
+                        <p>
+                            A VPN can be used to protect data as it basically scrambles data with encryption and makes
+                            it difficult for anyone to get access to your internet activity. This is good for places
+                            that use a public network like school to keep all your data safe as anyone can manipulate
+                            public internet.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="fixed">Group project</div>
+    <script src="js/modal.js"></script>
+</body>
+
+</html>
+<!-- Mattia Sassone -->

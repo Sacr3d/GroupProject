@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <div id="header" class="fixed">
+        <ul class="nav-left horizontal-list">
+            <li>
+                <a href="issues.html"><b>Issues</b></a>
+            </li>
+            <li>
+                <a href="security.html"><b>Security</b></a>
+            </li>
+            <li>
+                <a href=""><b>Techniques</b></a>
+            </li>
+        </ul>
+        <a href="index.html">
+            <img class="logo" src="images/logo-edited.png" alt="Secri-key Logo" /> </a>
+        <ul class="nav-right horizontal-list">
+            <li>
+                <a href=""><b>Contact Us</b></a>
+            </li>
+            <li>
+                <a href=""><b>Donate</b></a>
+            </li>
+            <li>
+                <a href=""><b>References</b></a>
+            </li>
+        </ul>
+    </div>
+    <div class="animated-area background-grey">
+        <ul class="box-area">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div id="fixed-container">
+        <div id="container-techniques">
+
+            <div id="techniques-title" class="title">
+                <strong>Techniques to protect your system.</strong>
+            </div>
+
+            <div id="container-backgroundchecks">
+                <button id="button-backgroundchecks" class="width-issues grow"
+                    onclick="openModal('backgroundchecks');">Background Checks</button>
+
+                <div id="backgroundchecks" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="window.close('backgroundchecks')">&times;</span>
+                        <span class="modal-title"><strong>Background Checks.</strong></span>
+                        <p>
+                            Why is a background check good you ask? A background check is a good technique in verifying
+                            if someone is trustworthy and fit for a role in security. Background checks usually make
+                            sure to check for criminal records, employment history and education that you guys are
+                            wishing to obtain at our school.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-encryption">
+                <button id="button-encryption" class="width-issues grow"
+                    onclick="openModal('encryption');">Encryption</button>
+
+                <div id="encryption" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="window.close('encryption')">&times;</span>
+                        <span class="modal-title"><strong>Encryption.</strong></span>
+                        <p>
+                            Encryption is a good technique because it changes information into a code that not everyone
+                            can see and reverts to its original form when someone that has authorised access tries to
+                            access it. Think about it as you are speaking in a different language that only you and your
+                            friend can see, and the only people who can understand it are the people you have allowed to
+                            see.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-hashing">
+                <button id="button-hashing" class="width-issues grow" onclick="openModal('hashing');">Hashing</button>
+
+                <div id="hashing" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="window.close('hashing')">&times;</span>
+                        <span class="modal-title"><strong>Hashing.</strong></span>
+                        <p>
+                            Hashing is generating a value of a text and turning it into a mathematical function that can
+                            only be unlocked by the intended recipient. So in simpler terms, it’s just like if you had a
+                            code with the value of 1 sending it to your friend will also create a hash and give him a
+                            value of 1 too and when they match it’ll mean that the recipient can open it.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-monitoringsolutions">
+                <button id="button-monitoringsolutions" class="width-issues grow"
+                    onclick="openModal('monitoringsolutions');">Monitoring Solutions</button>
+
+                <div id="monitoringsolutions" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="window.close('monitoringsolutions')">&times;</span>
+                        <span class="modal-title"><strong>Monitoring Solutions.</strong></span>
+                        <p>
+                            Monitoring solutions is good because it gives you an up to date and real time assessment of
+                            changes that are being made and help to monitor any cyber threats that come and go. This
+                            helps many information systems to react faster to situations as they are constantly being
+                            updated if something were to change.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-accesscontrol">
+                <button id="button-accesscontrol" class="width-issues grow" onclick="openModal('accesscontrol');">Access
+                    Controls</button>
+
+                <div id="accesscontrol" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="window.close('accesscontrol')">&times;</span>
+                        <span class="modal-title"><strong>Access Controls.</strong></span>
+                        <p>
+                            When access is being controlled it can be a good technique because everyone understands what
+                            they are allowed to use and what they are not allowed to use in order to avoid a slip up
+                            where a non or unexperienced employee could gain access to an cause problems for the
+                            company. This is why you students aren’t allowed to access any website because you could
+                            enter a website that could be risky and compromise our internet data.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-backups">
+                <button id="button-backups" class="width-issues grow" onclick="openModal('backups');">Backups</button>
+
+                <div id="backups" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="window.close('backups')">&times;</span>
+                        <span class="modal-title"><strong>Backups.</strong></span>
+                        <p>
+                            Backups are good because if any information is lost it can be traced back and found again,
+                            this is good for companies because it gives them extra reassurances for their customers. We
+                            also have backups for all you students so if anything happens, we can help you all!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="footer" class="fixed">Group project</div>
+    <script src="js/modal.js"></script>
+</body>
+
+</html>
+<!-- Mattia Sassone -->
