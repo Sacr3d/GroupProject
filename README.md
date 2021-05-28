@@ -1,2 +1,2 @@
 # GroupProject
-Website hosted on gitpages for CI453 group project
+Student Market Place built on Spring Boot
